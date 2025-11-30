@@ -590,5 +590,4 @@ else:
         st.warning(f"Could not generate word cloud: {e}")
 
 st.markdown("---")
-
 st.markdown("<div class='small-muted'>Pro tips: try department filters, increase min publications, or upload richer CSV (country of collaborators for real maps).</div>", unsafe_allow_html=True)
