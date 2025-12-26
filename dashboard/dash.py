@@ -476,7 +476,7 @@ else:
     selected = st.selectbox("Select faculty", options=names)
     if selected:
         rec = df_f[df_f["Faculty Name"] == selected].iloc[0]
-        left, right = st.columns([1, 2])
+        left, right = st.columns([1, 5])
         with left:
             st.image(avatar_data_uri(initials(rec["Faculty Name"]), size=200), width=160)
         with right:
